@@ -1,0 +1,1163 @@
+ERROR - 2021-12-03 14:04:56 --> Table 'biblioteka.projektai' doesn't exist
+CRITICAL - 2021-12-03 14:04:56 --> Table 'biblioteka.projektai' doesn't exist
+#0 E:\xampp\htdocs\code\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\code\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\code\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\code\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\code\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\code\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\code\app\Models\ProjektaiModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\code\app\Controllers\Projektai.php(13): App\Models\ProjektaiModel->getProjektai()
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Projektai->index()
+#9 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projektai))
+#10 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-12-03 14:18:59 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRresultArray()
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): App\Models\KnygosModel->getEsamiAutoriai()
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 14:21:14 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRresult()
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): App\Models\KnygosModel->getEsamiAutoriai()
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 14:21:28 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRresult()
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): App\Models\KnygosModel->getEsamiAutoriai()
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 14:22:02 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRresult()
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): App\Models\KnygosModel->getEsamiAutoriai()
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 14:22:30 --> Undefined variable $id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 51)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 14:25:01 --> Undefined variable $id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 51)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 14:26:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRresult()
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): App\Models\KnygosModel->getEsamiAutoriai()
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 14:26:30 --> Call to undefined method App\Models\KnygosModel::getRresult
+#0 E:\xampp\htdocs\code\app\Models\KnygosModel.php(27): CodeIgniter\Model->__call('getRresult', Array)
+#1 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): App\Models\KnygosModel->getEsamiAutoriai()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#4 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-03 14:30:27 --> Undefined array key "vardas"
+#0 E:\xampp\htdocs\code\app\Views\knyga.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\xampp\\htdocs...', 13)
+#1 E:\xampp\htdocs\code\system\View\View.php(214): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('knyga', Array, true)
+#4 E:\xampp\htdocs\code\app\Controllers\BaseController.php(56): view('knyga', Array)
+#5 E:\xampp\htdocs\code\app\Controllers\Knygos.php(53): App\Controllers\BaseController->template('knyga', Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-03 14:31:07 --> Undefined variable $id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 51)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 14:45:07 --> syntax error, unexpected token ";", expecting ")"
+#0 E:\xampp\htdocs\code\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('knygos/nauja')
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('knygos/nauja')
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 14:45:40 --> Undefined variable $id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 57)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 14:45:56 --> Call to undefined method App\Models\KnygosModel::details
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(57): CodeIgniter\Model->__call('details', Array)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 14:46:06 --> Call to undefined method App\Models\KnygosModel::details
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(57): CodeIgniter\Model->__call('details', Array)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 14:46:08 --> Call to undefined method App\Models\KnygosModel::details
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(57): CodeIgniter\Model->__call('details', Array)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 14:46:09 --> Call to undefined method App\Models\KnygosModel::details
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(57): CodeIgniter\Model->__call('details', Array)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 14:46:47 --> Call to undefined method App\Models\KnygosModel::details
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(57): CodeIgniter\Model->__call('details', Array)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 14:46:47 --> Call to undefined method App\Models\KnygosModel::details
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(57): CodeIgniter\Model->__call('details', Array)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 14:46:48 --> Call to undefined method App\Models\KnygosModel::details
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(57): CodeIgniter\Model->__call('details', Array)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-03 14:48:07 --> Table 'biblioteka.projektai' doesn't exist
+CRITICAL - 2021-12-03 14:48:07 --> Table 'biblioteka.projektai' doesn't exist
+#0 E:\xampp\htdocs\code\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\code\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\code\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\code\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\code\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\code\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\code\app\Models\ProjektaiModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\code\app\Controllers\Projektai.php(13): App\Models\ProjektaiModel->getProjektai()
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Projektai->index()
+#9 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projektai))
+#10 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-12-03 14:48:10 --> Table 'biblioteka.projektai' doesn't exist
+CRITICAL - 2021-12-03 14:48:10 --> Table 'biblioteka.projektai' doesn't exist
+#0 E:\xampp\htdocs\code\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\code\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\code\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\code\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\code\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\code\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\code\app\Models\ProjektaiModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\code\app\Controllers\Projektai.php(13): App\Models\ProjektaiModel->getProjektai()
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Projektai->index()
+#9 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projektai))
+#10 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-12-03 14:48:12 --> Table 'biblioteka.projektai' doesn't exist
+CRITICAL - 2021-12-03 14:48:12 --> Table 'biblioteka.projektai' doesn't exist
+#0 E:\xampp\htdocs\code\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\code\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\code\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\code\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\code\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\code\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\code\app\Models\ProjektaiModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\code\app\Controllers\Projektai.php(13): App\Models\ProjektaiModel->getProjektai()
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Projektai->index()
+#9 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projektai))
+#10 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-12-03 14:55:20 --> Unclosed '{' on line 8
+#0 E:\xampp\htdocs\code\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs...')
+#1 E:\xampp\htdocs\code\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Knyg...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Knyg...')
+#3 E:\xampp\htdocs\code\system\Config\Factories.php(136): class_exists('App\\Models\\Knyg...')
+#4 E:\xampp\htdocs\code\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'App\\Controllers...')
+#5 E:\xampp\htdocs\code\system\Common.php(783): CodeIgniter\Config\Factories::__callStatic('models', Array)
+#6 E:\xampp\htdocs\code\app\Controllers\Knygos.php(9): model('App\\Controllers...')
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(801): App\Controllers\Knygos->__construct()
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#9 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-12-03 14:55:23 --> Unclosed '{' on line 8
+#0 E:\xampp\htdocs\code\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs...')
+#1 E:\xampp\htdocs\code\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Knyg...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Knyg...')
+#3 E:\xampp\htdocs\code\system\Config\Factories.php(136): class_exists('App\\Models\\Knyg...')
+#4 E:\xampp\htdocs\code\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'App\\Controllers...')
+#5 E:\xampp\htdocs\code\system\Common.php(783): CodeIgniter\Config\Factories::__callStatic('models', Array)
+#6 E:\xampp\htdocs\code\app\Controllers\Knygos.php(9): model('App\\Controllers...')
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(801): App\Controllers\Knygos->__construct()
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#9 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-12-03 14:57:50 --> syntax error, unexpected token ";", expecting ")"
+#0 E:\xampp\htdocs\code\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs...')
+#1 E:\xampp\htdocs\code\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Knyg...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Knyg...')
+#3 E:\xampp\htdocs\code\system\Config\Factories.php(136): class_exists('App\\Models\\Knyg...')
+#4 E:\xampp\htdocs\code\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'App\\Controllers...')
+#5 E:\xampp\htdocs\code\system\Common.php(783): CodeIgniter\Config\Factories::__callStatic('models', Array)
+#6 E:\xampp\htdocs\code\app\Controllers\Knygos.php(9): model('App\\Controllers...')
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(801): App\Controllers\Knygos->__construct()
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#9 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-12-03 14:58:41 --> syntax error, unexpected token ";", expecting ")"
+#0 E:\xampp\htdocs\code\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs...')
+#1 E:\xampp\htdocs\code\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Knyg...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Knyg...')
+#3 E:\xampp\htdocs\code\system\Config\Factories.php(136): class_exists('App\\Models\\Knyg...')
+#4 E:\xampp\htdocs\code\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'App\\Controllers...')
+#5 E:\xampp\htdocs\code\system\Common.php(783): CodeIgniter\Config\Factories::__callStatic('models', Array)
+#6 E:\xampp\htdocs\code\app\Controllers\Knygos.php(9): model('App\\Controllers...')
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(801): App\Controllers\Knygos->__construct()
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#9 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-12-03 14:59:58 --> Undefined variable $id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 51)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 15:03:21 --> Undefined variable $id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 51)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 15:03:22 --> Undefined variable $id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 51)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 15:03:23 --> Undefined variable $id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 51)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 15:03:23 --> Undefined variable $id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 51)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 15:03:23 --> Undefined variable $id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 51)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 15:03:33 --> Undefined variable $id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 51)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 15:03:34 --> Undefined variable $id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 51)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 15:03:35 --> Undefined variable $id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 51)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 15:04:50 --> Undefined variable $request
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 46)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 15:05:02 --> Call to undefined method App\Controllers\Knygos::getPost()
+#0 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-03 15:07:48 --> Call to undefined method App\Controllers\Knygos::getPost()
+#0 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-03 15:08:00 --> Undefined variable $id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 49)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 15:08:28 --> Undefined variable $autoriaus_id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 49)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 15:08:56 --> Undefined variable $autoriaus_id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 49)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 15:33:00 --> Undefined variable $autoriaus_id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 49)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 15:33:19 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(49): App\Models\KnygosModel->getEsamiAutoriai()
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 15:39:38 --> syntax error, unexpected variable "$this", expecting "function" or "const"
+#0 E:\xampp\htdocs\code\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs...')
+#1 E:\xampp\htdocs\code\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Knyg...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Knyg...')
+#3 E:\xampp\htdocs\code\system\Config\Factories.php(136): class_exists('App\\Models\\Knyg...')
+#4 E:\xampp\htdocs\code\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'App\\Controllers...')
+#5 E:\xampp\htdocs\code\system\Common.php(783): CodeIgniter\Config\Factories::__callStatic('models', Array)
+#6 E:\xampp\htdocs\code\app\Controllers\Knygos.php(9): model('App\\Controllers...')
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(801): App\Controllers\Knygos->__construct()
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#9 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-12-03 15:45:24 --> syntax error, unexpected variable "$this", expecting "function" or "const"
+#0 E:\xampp\htdocs\code\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs...')
+#1 E:\xampp\htdocs\code\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Knyg...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Knyg...')
+#3 E:\xampp\htdocs\code\system\Config\Factories.php(136): class_exists('App\\Models\\Knyg...')
+#4 E:\xampp\htdocs\code\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'App\\Controllers...')
+#5 E:\xampp\htdocs\code\system\Common.php(783): CodeIgniter\Config\Factories::__callStatic('models', Array)
+#6 E:\xampp\htdocs\code\app\Controllers\Knygos.php(9): model('App\\Controllers...')
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(801): App\Controllers\Knygos->__construct()
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#9 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-12-03 15:49:16 --> syntax error, unexpected variable "$this", expecting "function" or "const"
+#0 E:\xampp\htdocs\code\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('knygos')
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('knygos')
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 15:54:31 --> syntax error, unexpected variable "$this", expecting "function" or "const"
+#0 E:\xampp\htdocs\code\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('knygos')
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('knygos')
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 15:54:44 --> syntax error, unexpected token "class", expecting "function" or "const"
+#0 E:\xampp\htdocs\code\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('knygos')
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('knygos')
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 15:55:13 --> syntax error, unexpected token "extends", expecting "="
+#0 E:\xampp\htdocs\code\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('knygos')
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('knygos')
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 15:55:27 --> syntax error, unexpected token "public"
+#0 E:\xampp\htdocs\code\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('knygos')
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('knygos')
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-03 15:59:16 --> Table 'biblioteka.projektai' doesn't exist
+CRITICAL - 2021-12-03 15:59:16 --> Table 'biblioteka.projektai' doesn't exist
+#0 E:\xampp\htdocs\code\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\code\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\code\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\code\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\code\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\code\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\code\app\Models\ProjektaiModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\code\app\Controllers\Projektai.php(13): App\Models\ProjektaiModel->getProjektai()
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Projektai->index()
+#9 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projektai))
+#10 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-12-03 16:00:05 --> Cannot redeclare App\Models\KnygosModel::$table
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-03 16:00:33 --> Call to undefined method App\Controllers\Knygos::getAutoriai()
+#0 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-03 16:01:14 --> syntax error, unexpected token "protected"
+#0 E:\xampp\htdocs\code\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs...')
+#1 E:\xampp\htdocs\code\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Knyg...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Knyg...')
+#3 E:\xampp\htdocs\code\system\Config\Factories.php(136): class_exists('App\\Models\\Knyg...')
+#4 E:\xampp\htdocs\code\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'App\\Controllers...')
+#5 E:\xampp\htdocs\code\system\Common.php(783): CodeIgniter\Config\Factories::__callStatic('models', Array)
+#6 E:\xampp\htdocs\code\app\Controllers\Knygos.php(8): model('App\\Controllers...')
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(801): App\Controllers\Knygos->__construct()
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#9 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-12-03 16:01:24 --> Call to undefined method App\Controllers\Knygos::getAutoriai()
+#0 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-12-03 16:04:05 --> Table 'biblioteka.projektai' doesn't exist
+CRITICAL - 2021-12-03 16:04:05 --> Table 'biblioteka.projektai' doesn't exist
+#0 E:\xampp\htdocs\code\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\code\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\code\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\code\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\code\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\code\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\code\app\Models\ProjektaiModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\code\app\Controllers\Projektai.php(13): App\Models\ProjektaiModel->getProjektai()
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Projektai->index()
+#9 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projektai))
+#10 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-12-03 16:04:54 --> Call to undefined method App\Controllers\Knygos::getEsamiAutoriai()
+#0 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-03 16:05:16 --> Call to undefined method App\Controllers\Knygos::getEsamiAutoriai()
+#0 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-03 16:05:17 --> Call to undefined method App\Controllers\Knygos::getEsamiAutoriai()
+#0 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-03 16:05:50 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRresult()
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(49): App\Models\KnygosModel->getEsamiAutoriai()
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 16:10:54 --> foreach() argument must be of type array|object, null given
+#0 E:\xampp\htdocs\code\app\Views\knyga.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'E:\\xampp\\htdocs...', 11)
+#1 E:\xampp\htdocs\code\system\View\View.php(214): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('knyga', Array, true)
+#4 E:\xampp\htdocs\code\app\Controllers\BaseController.php(56): view('knyga', Array)
+#5 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): App\Controllers\BaseController->template('knyga', Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-03 16:12:10 --> foreach() argument must be of type array|object, null given
+#0 E:\xampp\htdocs\code\app\Views\knyga.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'E:\\xampp\\htdocs...', 11)
+#1 E:\xampp\htdocs\code\system\View\View.php(214): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('knyga', Array, true)
+#4 E:\xampp\htdocs\code\app\Controllers\BaseController.php(56): view('knyga', Array)
+#5 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): App\Controllers\BaseController->template('knyga', Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-03 16:12:43 --> foreach() argument must be of type array|object, null given
+#0 E:\xampp\htdocs\code\app\Views\knyga.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'E:\\xampp\\htdocs...', 11)
+#1 E:\xampp\htdocs\code\system\View\View.php(214): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('knyga', Array, true)
+#4 E:\xampp\htdocs\code\app\Controllers\BaseController.php(56): view('knyga', Array)
+#5 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): App\Controllers\BaseController->template('knyga', Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-03 16:12:44 --> foreach() argument must be of type array|object, null given
+#0 E:\xampp\htdocs\code\app\Views\knyga.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'E:\\xampp\\htdocs...', 11)
+#1 E:\xampp\htdocs\code\system\View\View.php(214): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('knyga', Array, true)
+#4 E:\xampp\htdocs\code\app\Controllers\BaseController.php(56): view('knyga', Array)
+#5 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): App\Controllers\BaseController->template('knyga', Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-03 16:12:45 --> foreach() argument must be of type array|object, null given
+#0 E:\xampp\htdocs\code\app\Views\knyga.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'E:\\xampp\\htdocs...', 11)
+#1 E:\xampp\htdocs\code\system\View\View.php(214): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('knyga', Array, true)
+#4 E:\xampp\htdocs\code\app\Controllers\BaseController.php(56): view('knyga', Array)
+#5 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): App\Controllers\BaseController->template('knyga', Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-03 16:12:45 --> foreach() argument must be of type array|object, null given
+#0 E:\xampp\htdocs\code\app\Views\knyga.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'E:\\xampp\\htdocs...', 11)
+#1 E:\xampp\htdocs\code\system\View\View.php(214): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('knyga', Array, true)
+#4 E:\xampp\htdocs\code\app\Controllers\BaseController.php(56): view('knyga', Array)
+#5 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): App\Controllers\BaseController->template('knyga', Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-03 16:14:31 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(49): App\Models\KnygosModel->getEsamiAutoriai()
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 16:14:56 --> foreach() argument must be of type array|object, null given
+#0 E:\xampp\htdocs\code\app\Views\knyga.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'E:\\xampp\\htdocs...', 11)
+#1 E:\xampp\htdocs\code\system\View\View.php(214): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('knyga', Array, true)
+#4 E:\xampp\htdocs\code\app\Controllers\BaseController.php(56): view('knyga', Array)
+#5 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): App\Controllers\BaseController->template('knyga', Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-03 16:15:45 --> Undefined variable $results
+#0 E:\xampp\htdocs\code\app\Views\knyga.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 11)
+#1 E:\xampp\htdocs\code\system\View\View.php(214): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('knyga', Array, true)
+#4 E:\xampp\htdocs\code\app\Controllers\BaseController.php(56): view('knyga', Array)
+#5 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): App\Controllers\BaseController->template('knyga', Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-03 16:16:29 --> foreach() argument must be of type array|object, null given
+#0 E:\xampp\htdocs\code\app\Views\knyga.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'E:\\xampp\\htdocs...', 11)
+#1 E:\xampp\htdocs\code\system\View\View.php(214): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('knyga', Array, true)
+#4 E:\xampp\htdocs\code\app\Controllers\BaseController.php(56): view('knyga', Array)
+#5 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): App\Controllers\BaseController->template('knyga', Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-03 16:19:30 --> Undefined variable $id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 49)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 16:20:59 --> foreach() argument must be of type array|object, null given
+#0 E:\xampp\htdocs\code\app\Views\knyga.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'E:\\xampp\\htdocs...', 11)
+#1 E:\xampp\htdocs\code\system\View\View.php(214): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('knyga', Array, true)
+#4 E:\xampp\htdocs\code\app\Controllers\BaseController.php(56): view('knyga', Array)
+#5 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): App\Controllers\BaseController->template('knyga', Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-03 16:21:30 --> foreach() argument must be of type array|object, null given
+#0 E:\xampp\htdocs\code\app\Views\knyga.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'E:\\xampp\\htdocs...', 11)
+#1 E:\xampp\htdocs\code\system\View\View.php(214): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('knyga', Array, true)
+#4 E:\xampp\htdocs\code\app\Controllers\BaseController.php(56): view('knyga', Array)
+#5 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): App\Controllers\BaseController->template('knyga', Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-03 16:21:37 --> foreach() argument must be of type array|object, null given
+#0 E:\xampp\htdocs\code\app\Views\knyga.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'E:\\xampp\\htdocs...', 11)
+#1 E:\xampp\htdocs\code\system\View\View.php(214): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('knyga', Array, true)
+#4 E:\xampp\htdocs\code\app\Controllers\BaseController.php(56): view('knyga', Array)
+#5 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): App\Controllers\BaseController->template('knyga', Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-03 16:22:20 --> foreach() argument must be of type array|object, null given
+#0 E:\xampp\htdocs\code\app\Views\knyga.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'E:\\xampp\\htdocs...', 11)
+#1 E:\xampp\htdocs\code\system\View\View.php(214): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('knyga', Array, true)
+#4 E:\xampp\htdocs\code\app\Controllers\BaseController.php(56): view('knyga', Array)
+#5 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): App\Controllers\BaseController->template('knyga', Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-03 16:27:55 --> foreach() argument must be of type array|object, null given
+#0 E:\xampp\htdocs\code\app\Views\knyga.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'E:\\xampp\\htdocs...', 11)
+#1 E:\xampp\htdocs\code\system\View\View.php(214): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('knyga', Array, true)
+#4 E:\xampp\htdocs\code\app\Controllers\BaseController.php(56): view('knyga', Array)
+#5 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): App\Controllers\BaseController->template('knyga', Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-03 16:29:46 --> foreach() argument must be of type array|object, null given
+#0 E:\xampp\htdocs\code\app\Views\knyga.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'E:\\xampp\\htdocs...', 11)
+#1 E:\xampp\htdocs\code\system\View\View.php(214): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('knyga', Array, true)
+#4 E:\xampp\htdocs\code\app\Controllers\BaseController.php(56): view('knyga', Array)
+#5 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): App\Controllers\BaseController->template('knyga', Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-03 16:31:04 --> foreach() argument must be of type array|object, null given
+#0 E:\xampp\htdocs\code\app\Views\knyga.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'E:\\xampp\\htdocs...', 11)
+#1 E:\xampp\htdocs\code\system\View\View.php(214): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('knyga', Array, true)
+#4 E:\xampp\htdocs\code\app\Controllers\BaseController.php(56): view('knyga', Array)
+#5 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): App\Controllers\BaseController->template('knyga', Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-03 16:31:36 --> syntax error, unexpected token ";", expecting ")"
+#0 E:\xampp\htdocs\code\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('knygos')
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('knygos')
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 16:31:55 --> foreach() argument must be of type array|object, null given
+#0 E:\xampp\htdocs\code\app\Views\knyga.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'E:\\xampp\\htdocs...', 11)
+#1 E:\xampp\htdocs\code\system\View\View.php(214): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('knyga', Array, true)
+#4 E:\xampp\htdocs\code\app\Controllers\BaseController.php(56): view('knyga', Array)
+#5 E:\xampp\htdocs\code\app\Controllers\Knygos.php(52): App\Controllers\BaseController->template('knyga', Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-03 16:32:22 --> syntax error, unexpected identifier "print_r", expecting ")"
+#0 E:\xampp\htdocs\code\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('knygos/nauja')
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('knygos/nauja')
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 16:32:33 --> foreach() argument must be of type array|object, null given
+#0 E:\xampp\htdocs\code\app\Views\knyga.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'E:\\xampp\\htdocs...', 11)
+#1 E:\xampp\htdocs\code\system\View\View.php(214): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('knyga', Array, true)
+#4 E:\xampp\htdocs\code\app\Controllers\BaseController.php(56): view('knyga', Array)
+#5 E:\xampp\htdocs\code\app\Controllers\Knygos.php(53): App\Controllers\BaseController->template('knyga', Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-03 16:33:01 --> Undefined variable $result
+#0 E:\xampp\htdocs\code\app\Models\KnygosModel.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 28)
+#1 E:\xampp\htdocs\code\app\Controllers\Knygos.php(50): App\Models\KnygosModel->getEsamiAutoriai()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#4 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-03 16:33:47 --> foreach() argument must be of type array|object, null given
+#0 E:\xampp\htdocs\code\app\Views\knyga.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'E:\\xampp\\htdocs...', 11)
+#1 E:\xampp\htdocs\code\system\View\View.php(214): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('knyga', Array, true)
+#4 E:\xampp\htdocs\code\app\Controllers\BaseController.php(56): view('knyga', Array)
+#5 E:\xampp\htdocs\code\app\Controllers\Knygos.php(52): App\Controllers\BaseController->template('knyga', Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-03 16:34:52 --> foreach() argument must be of type array|object, null given
+#0 E:\xampp\htdocs\code\app\Views\knyga.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'E:\\xampp\\htdocs...', 11)
+#1 E:\xampp\htdocs\code\system\View\View.php(214): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('knyga', Array, true)
+#4 E:\xampp\htdocs\code\app\Controllers\BaseController.php(56): view('knyga', Array)
+#5 E:\xampp\htdocs\code\app\Controllers\Knygos.php(52): App\Controllers\BaseController->template('knyga', Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-03 16:39:55 --> Table 'biblioteka.projektai' doesn't exist
+CRITICAL - 2021-12-03 16:39:55 --> Table 'biblioteka.projektai' doesn't exist
+#0 E:\xampp\htdocs\code\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\code\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\code\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\code\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\code\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\code\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\code\app\Models\ProjektaiModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\code\app\Controllers\Projektai.php(13): App\Models\ProjektaiModel->getProjektai()
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Projektai->index()
+#9 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projektai))
+#10 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-12-03 16:41:04 --> Undefined variable $esamas_autorius
+#0 E:\xampp\htdocs\code\app\Views\knyga.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 13)
+#1 E:\xampp\htdocs\code\system\View\View.php(214): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('knyga', Array, true)
+#4 E:\xampp\htdocs\code\app\Controllers\BaseController.php(56): view('knyga', Array)
+#5 E:\xampp\htdocs\code\app\Controllers\Knygos.php(52): App\Controllers\BaseController->template('knyga', Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-03 16:41:23 --> Table 'biblioteka.projektai' doesn't exist
+CRITICAL - 2021-12-03 16:41:23 --> Table 'biblioteka.projektai' doesn't exist
+#0 E:\xampp\htdocs\code\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\code\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\code\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\code\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\code\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\code\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\code\app\Models\ProjektaiModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\code\app\Controllers\Projektai.php(13): App\Models\ProjektaiModel->getProjektai()
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Projektai->index()
+#9 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projektai))
+#10 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-12-03 16:41:32 --> Undefined variable $esamas_autoriai
+#0 E:\xampp\htdocs\code\app\Views\knyga.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 13)
+#1 E:\xampp\htdocs\code\system\View\View.php(214): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('knyga', Array, true)
+#4 E:\xampp\htdocs\code\app\Controllers\BaseController.php(56): view('knyga', Array)
+#5 E:\xampp\htdocs\code\app\Controllers\Knygos.php(52): App\Controllers\BaseController->template('knyga', Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-03 16:41:51 --> Trying to access array offset on value of type null
+#0 E:\xampp\htdocs\code\app\Views\knyga.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'E:\\xampp\\htdocs...', 13)
+#1 E:\xampp\htdocs\code\system\View\View.php(214): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('knyga', Array, true)
+#4 E:\xampp\htdocs\code\app\Controllers\BaseController.php(56): view('knyga', Array)
+#5 E:\xampp\htdocs\code\app\Controllers\Knygos.php(52): App\Controllers\BaseController->template('knyga', Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-03 16:44:47 --> foreach() argument must be of type array|object, null given
+#0 E:\xampp\htdocs\code\app\Views\knyga.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'E:\\xampp\\htdocs...', 11)
+#1 E:\xampp\htdocs\code\system\View\View.php(214): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('knyga', Array, true)
+#4 E:\xampp\htdocs\code\app\Controllers\BaseController.php(56): view('knyga', Array)
+#5 E:\xampp\htdocs\code\app\Controllers\Knygos.php(52): App\Controllers\BaseController->template('knyga', Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-03 16:46:58 --> foreach() argument must be of type array|object, null given
+#0 E:\xampp\htdocs\code\app\Views\knyga.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'E:\\xampp\\htdocs...', 11)
+#1 E:\xampp\htdocs\code\system\View\View.php(214): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('knyga', Array, true)
+#4 E:\xampp\htdocs\code\app\Controllers\BaseController.php(56): view('knyga', Array)
+#5 E:\xampp\htdocs\code\app\Controllers\Knygos.php(52): App\Controllers\BaseController->template('knyga', Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-03 16:47:30 --> foreach() argument must be of type array|object, null given
+#0 E:\xampp\htdocs\code\app\Views\knyga.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'E:\\xampp\\htdocs...', 11)
+#1 E:\xampp\htdocs\code\system\View\View.php(214): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('knyga', Array, true)
+#4 E:\xampp\htdocs\code\app\Controllers\BaseController.php(56): view('knyga', Array)
+#5 E:\xampp\htdocs\code\app\Controllers\Knygos.php(52): App\Controllers\BaseController->template('knyga', Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-03 16:47:31 --> foreach() argument must be of type array|object, null given
+#0 E:\xampp\htdocs\code\app\Views\knyga.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'E:\\xampp\\htdocs...', 11)
+#1 E:\xampp\htdocs\code\system\View\View.php(214): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('knyga', Array, true)
+#4 E:\xampp\htdocs\code\app\Controllers\BaseController.php(56): view('knyga', Array)
+#5 E:\xampp\htdocs\code\app\Controllers\Knygos.php(52): App\Controllers\BaseController->template('knyga', Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-03 16:47:48 --> Undefined variable $id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 50)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 16:51:39 --> foreach() argument must be of type array|object, null given
+#0 E:\xampp\htdocs\code\app\Views\knyga.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'E:\\xampp\\htdocs...', 11)
+#1 E:\xampp\htdocs\code\system\View\View.php(214): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('knyga', Array, true)
+#4 E:\xampp\htdocs\code\app\Controllers\BaseController.php(56): view('knyga', Array)
+#5 E:\xampp\htdocs\code\app\Controllers\Knygos.php(52): App\Controllers\BaseController->template('knyga', Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-03 16:51:42 --> foreach() argument must be of type array|object, null given
+#0 E:\xampp\htdocs\code\app\Views\knyga.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'E:\\xampp\\htdocs...', 11)
+#1 E:\xampp\htdocs\code\system\View\View.php(214): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('knyga', Array, true)
+#4 E:\xampp\htdocs\code\app\Controllers\BaseController.php(56): view('knyga', Array)
+#5 E:\xampp\htdocs\code\app\Controllers\Knygos.php(52): App\Controllers\BaseController->template('knyga', Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-03 16:52:10 --> foreach() argument must be of type array|object, null given
+#0 E:\xampp\htdocs\code\app\Views\knyga.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'E:\\xampp\\htdocs...', 11)
+#1 E:\xampp\htdocs\code\system\View\View.php(214): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('knyga', Array, true)
+#4 E:\xampp\htdocs\code\app\Controllers\BaseController.php(56): view('knyga', Array)
+#5 E:\xampp\htdocs\code\app\Controllers\Knygos.php(52): App\Controllers\BaseController->template('knyga', Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-03 16:54:27 --> Call to a member function getResult() on null
+#0 E:\xampp\htdocs\code\system\View\View.php(214): include()
+#1 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('knyga', Array, true)
+#3 E:\xampp\htdocs\code\app\Controllers\BaseController.php(56): view('knyga', Array)
+#4 E:\xampp\htdocs\code\app\Controllers\Knygos.php(52): App\Controllers\BaseController->template('knyga', Array)
+#5 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-03 17:06:59 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRresult()
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(50): App\Models\KnygosModel->getEsamiAutoriai()
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 17:07:14 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRresultArray()
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(50): App\Models\KnygosModel->getEsamiAutoriai()
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 17:08:15 --> Undefined variable $id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 50)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 17:08:25 --> Undefined variable $autoriaus_id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 50)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 17:10:36 --> Undefined variable $id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 50)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 17:10:37 --> Undefined variable $id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 50)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 17:10:38 --> Undefined variable $id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 50)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 17:10:38 --> Undefined variable $id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 50)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 17:10:38 --> Undefined variable $id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 50)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 17:10:38 --> Undefined variable $id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 50)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 17:10:38 --> Undefined variable $id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 50)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 17:10:59 --> syntax error, unexpected token ")", expecting variable or "{" or "$"
+#0 E:\xampp\htdocs\code\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('knygos/nauja')
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('knygos/nauja')
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 17:11:07 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRresultArray()
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(50): App\Models\KnygosModel->getEsamiAutoriai()
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 17:12:12 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRresultArray()
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(50): App\Models\KnygosModel->getEsamiAutoriai(1)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 17:12:13 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRresultArray()
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(50): App\Models\KnygosModel->getEsamiAutoriai(1)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 17:12:30 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRresultArray()
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(50): App\Models\KnygosModel->getEsamiAutoriai(1)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-03 17:13:49 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2021-12-03 17:13:49 --> Column 'id' in where clause is ambiguous
+#0 E:\xampp\htdocs\code\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT a.vardas...', 0)
+#1 E:\xampp\htdocs\code\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.vardas...')
+#2 E:\xampp\htdocs\code\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.vardas...')
+#3 E:\xampp\htdocs\code\system\Model.php(721): CodeIgniter\Database\BaseConnection->query('SELECT a.vardas...', Array)
+#4 E:\xampp\htdocs\code\app\Models\KnygosModel.php(32): CodeIgniter\Model->__call('query', Array)
+#5 E:\xampp\htdocs\code\app\Controllers\Knygos.php(50): App\Models\KnygosModel->getEsamiAutoriai(1)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-03 17:14:14 --> Undefined variable $id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 50)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 17:14:55 --> Undefined variable $id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 50)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 17:16:07 --> Undefined variable $id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 50)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-03 17:16:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 1
+CRITICAL - 2021-12-03 17:16:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 1
+#0 E:\xampp\htdocs\code\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT a.vardas...', 0)
+#1 E:\xampp\htdocs\code\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.vardas...')
+#2 E:\xampp\htdocs\code\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.vardas...')
+#3 E:\xampp\htdocs\code\system\Model.php(721): CodeIgniter\Database\BaseConnection->query('SELECT a.vardas...')
+#4 E:\xampp\htdocs\code\app\Models\KnygosModel.php(32): CodeIgniter\Model->__call('query', Array)
+#5 E:\xampp\htdocs\code\app\Controllers\Knygos.php(50): App\Models\KnygosModel->getEsamiAutoriai()
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-03 17:19:40 --> Table 'biblioteka.projektai' doesn't exist
+CRITICAL - 2021-12-03 17:19:40 --> Table 'biblioteka.projektai' doesn't exist
+#0 E:\xampp\htdocs\code\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\code\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\code\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\code\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\code\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\code\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\code\app\Models\ProjektaiModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\code\app\Controllers\Projektai.php(13): App\Models\ProjektaiModel->getProjektai()
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Projektai->index()
+#9 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projektai))
+#10 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-12-03 17:28:14 --> Table 'biblioteka.projektai' doesn't exist
+CRITICAL - 2021-12-03 17:28:14 --> Table 'biblioteka.projektai' doesn't exist
+#0 E:\xampp\htdocs\code\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\code\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\code\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\code\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\code\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\code\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\code\app\Models\ProjektaiModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\code\app\Controllers\Projektai.php(13): App\Models\ProjektaiModel->getProjektai()
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Projektai->index()
+#9 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projektai))
+#10 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-12-03 17:32:02 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRresultArray()
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(50): App\Models\KnygosModel->getEsamiAutoriai()
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 17:37:03 --> Call to a member function getResult() on array
+#0 E:\xampp\htdocs\code\system\View\View.php(214): include()
+#1 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('knyga', Array, true)
+#3 E:\xampp\htdocs\code\app\Controllers\BaseController.php(56): view('knyga', Array)
+#4 E:\xampp\htdocs\code\app\Controllers\Knygos.php(87): App\Controllers\BaseController->template('knyga', Array)
+#5 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->redaguoti('1')
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

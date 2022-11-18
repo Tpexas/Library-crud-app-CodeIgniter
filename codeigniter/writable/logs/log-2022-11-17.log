@@ -1,0 +1,14 @@
+ERROR - 2022-11-17 15:20:32 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-11-17 15:20:32 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 E:\xamppp\htdocs\kodas\codeigniter\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\xamppp\htdocs\kodas\codeigniter\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\xamppp\htdocs\kodas\codeigniter\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\xamppp\htdocs\kodas\codeigniter\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\xamppp\htdocs\kodas\codeigniter\app\Models\KnygosModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 E:\xamppp\htdocs\kodas\codeigniter\app\Controllers\Knygos.php(14): App\Models\KnygosModel->getKnygos()
+#6 E:\xamppp\htdocs\kodas\codeigniter\system\CodeIgniter.php(824): App\Controllers\Knygos->index()
+#7 E:\xamppp\htdocs\kodas\codeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#8 E:\xamppp\htdocs\kodas\codeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xamppp\htdocs\kodas\public_html\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

@@ -1,0 +1,397 @@
+ERROR - 2021-12-02 02:03:52 --> Table 'biblioteka.projektai' doesn't exist
+CRITICAL - 2021-12-02 02:03:52 --> Table 'biblioteka.projektai' doesn't exist
+#0 E:\xampp\htdocs\code\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\code\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\code\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\code\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\code\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\code\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\code\app\Models\ProjektaiModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\code\app\Controllers\Projektai.php(13): App\Models\ProjektaiModel->getProjektai()
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Projektai->index()
+#9 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projektai))
+#10 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-12-02 02:31:52 --> Table 'biblioteka.projektai' doesn't exist
+CRITICAL - 2021-12-02 02:31:52 --> Table 'biblioteka.projektai' doesn't exist
+#0 E:\xampp\htdocs\code\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\code\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\code\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\code\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\code\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\code\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\code\app\Models\ProjektaiModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\code\app\Controllers\Projektai.php(13): App\Models\ProjektaiModel->getProjektai()
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Projektai->index()
+#9 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projektai))
+#10 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-12-02 02:40:26 --> Undefined variable $result
+#0 E:\xampp\htdocs\code\app\Models\KnygosModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 25)
+#1 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): App\Models\KnygosModel->getEsamiAutoriai()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#4 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-02 02:40:39 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRresultArray()
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): App\Models\KnygosModel->getEsamiAutoriai()
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 02:41:14 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRresultArray()
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): App\Models\KnygosModel->getEsamiAutoriai()
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 02:42:53 --> Undefined variable $id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 51)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 02:44:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRresultArray()
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): App\Models\KnygosModel->getEsamiAutoriai()
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 02:47:30 --> syntax error, unexpected token ","
+#0 E:\xampp\htdocs\code\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs...')
+#1 E:\xampp\htdocs\code\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Knyg...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Knyg...')
+#3 E:\xampp\htdocs\code\system\Config\Factories.php(136): class_exists('App\\Models\\Knyg...')
+#4 E:\xampp\htdocs\code\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'App\\Controllers...')
+#5 E:\xampp\htdocs\code\system\Common.php(783): CodeIgniter\Config\Factories::__callStatic('models', Array)
+#6 E:\xampp\htdocs\code\app\Controllers\Knygos.php(9): model('App\\Controllers...')
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(801): App\Controllers\Knygos->__construct()
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#9 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-12-02 02:47:50 --> Undefined variable $id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 51)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-02 03:11:45 --> Table 'biblioteka.projektai' doesn't exist
+CRITICAL - 2021-12-02 03:11:45 --> Table 'biblioteka.projektai' doesn't exist
+#0 E:\xampp\htdocs\code\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\code\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\code\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\code\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\code\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\code\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\code\app\Models\ProjektaiModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\code\app\Controllers\Projektai.php(13): App\Models\ProjektaiModel->getProjektai()
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Projektai->index()
+#9 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projektai))
+#10 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-12-02 03:46:42 --> Table 'biblioteka.projektai' doesn't exist
+CRITICAL - 2021-12-02 03:46:42 --> Table 'biblioteka.projektai' doesn't exist
+#0 E:\xampp\htdocs\code\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\code\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\code\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\code\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\code\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\code\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\code\app\Models\ProjektaiModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\code\app\Controllers\Projektai.php(13): App\Models\ProjektaiModel->getProjektai()
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Projektai->index()
+#9 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projektai))
+#10 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-12-02 11:25:29 --> Table 'biblioteka.projektai' doesn't exist
+CRITICAL - 2021-12-02 11:25:29 --> Table 'biblioteka.projektai' doesn't exist
+#0 E:\xampp\htdocs\code\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\code\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\code\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\code\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\code\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\code\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\code\app\Models\ProjektaiModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\code\app\Controllers\Projektai.php(13): App\Models\ProjektaiModel->getProjektai()
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Projektai->index()
+#9 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projektai))
+#10 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-12-02 11:28:17 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRresultArray()
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(86): App\Models\KnygosModel->getEsamiAutoriai('1')
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->redaguoti('1')
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 11:29:06 --> Undefined variable $id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 51)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 11:29:52 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRresultArray()
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): App\Models\KnygosModel->getEsamiAutoriai()
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 11:30:22 --> Undefined variable $id
+#0 E:\xampp\htdocs\code\app\Models\KnygosModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 25)
+#1 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): App\Models\KnygosModel->getEsamiAutoriai()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#4 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-02 11:30:33 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRresultArray()
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): App\Models\KnygosModel->getEsamiAutoriai()
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 11:35:28 --> Undefined array key "vardas"
+#0 E:\xampp\htdocs\code\app\Views\knyga.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\xampp\\htdocs...', 13)
+#1 E:\xampp\htdocs\code\system\View\View.php(214): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('knyga', Array, true)
+#4 E:\xampp\htdocs\code\app\Controllers\BaseController.php(56): view('knyga', Array)
+#5 E:\xampp\htdocs\code\app\Controllers\Knygos.php(53): App\Controllers\BaseController->template('knyga', Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-02 11:37:02 --> Column 'autoriaus_id' cannot be null
+CRITICAL - 2021-12-02 11:37:02 --> Column 'autoriaus_id' cannot be null
+#0 E:\xampp\htdocs\code\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `kn...', 0)
+#1 E:\xampp\htdocs\code\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kn...')
+#2 E:\xampp\htdocs\code\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kn...')
+#3 E:\xampp\htdocs\code\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kn...', Array, false)
+#4 E:\xampp\htdocs\code\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\code\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\code\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\xampp\htdocs\code\app\Controllers\Knygos.php(43): CodeIgniter\Model->insert(Array)
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#9 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#10 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-12-02 11:45:24 --> Undefined variable $id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 51)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 11:50:52 --> Undefined variable $id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 51)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 11:51:21 --> Undefined variable $id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 51)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 11:51:22 --> Undefined variable $id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 51)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 11:51:23 --> Undefined variable $id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 51)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 11:51:25 --> Undefined variable $id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 51)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 11:51:52 --> Undefined variable $id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 51)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-02 11:55:03 --> Table 'biblioteka.projektai' doesn't exist
+CRITICAL - 2021-12-02 11:55:03 --> Table 'biblioteka.projektai' doesn't exist
+#0 E:\xampp\htdocs\code\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\code\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\code\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\code\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\code\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\code\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\code\app\Models\ProjektaiModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\code\app\Controllers\Projektai.php(13): App\Models\ProjektaiModel->getProjektai()
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Projektai->index()
+#9 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projektai))
+#10 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-12-02 11:56:16 --> Undefined variable $id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 51)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-02 11:56:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 1
+CRITICAL - 2021-12-02 11:56:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 1
+#0 E:\xampp\htdocs\code\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM a...', 0)
+#1 E:\xampp\htdocs\code\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM a...')
+#2 E:\xampp\htdocs\code\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM a...')
+#3 E:\xampp\htdocs\code\system\Model.php(721): CodeIgniter\Database\BaseConnection->query('SELECT * FROM a...')
+#4 E:\xampp\htdocs\code\app\Models\KnygosModel.php(25): CodeIgniter\Model->__call('query', Array)
+#5 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): App\Models\KnygosModel->getEsamiAutoriai()
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-02 11:57:06 --> Undefined variable $autoriaus_id
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 51)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 11:57:30 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRresultArray()
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(51): App\Models\KnygosModel->getEsamiAutoriai()
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->nauja()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-02 16:05:48 --> Table 'biblioteka.projektai' doesn't exist
+CRITICAL - 2021-12-02 16:05:48 --> Table 'biblioteka.projektai' doesn't exist
+#0 E:\xampp\htdocs\code\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\code\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\code\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\code\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\code\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\code\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\code\app\Models\ProjektaiModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\code\app\Controllers\Projektai.php(13): App\Models\ProjektaiModel->getProjektai()
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Projektai->index()
+#9 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projektai))
+#10 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-12-02 16:09:16 --> Table 'biblioteka.projektai' doesn't exist
+CRITICAL - 2021-12-02 16:09:16 --> Table 'biblioteka.projektai' doesn't exist
+#0 E:\xampp\htdocs\code\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\code\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\code\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\code\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\code\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\code\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\code\app\Models\ProjektaiModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\code\app\Controllers\Projektai.php(13): App\Models\ProjektaiModel->getProjektai()
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Projektai->index()
+#9 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projektai))
+#10 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-12-02 16:10:17 --> Table 'biblioteka.projektai' doesn't exist
+CRITICAL - 2021-12-02 16:10:17 --> Table 'biblioteka.projektai' doesn't exist
+#0 E:\xampp\htdocs\code\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\code\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\code\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\code\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\code\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\code\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\code\app\Models\ProjektaiModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\code\app\Controllers\Projektai.php(13): App\Models\ProjektaiModel->getProjektai()
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Projektai->index()
+#9 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projektai))
+#10 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-12-02 17:07:14 --> Table 'biblioteka.projektai' doesn't exist
+CRITICAL - 2021-12-02 17:07:14 --> Table 'biblioteka.projektai' doesn't exist
+#0 E:\xampp\htdocs\code\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\code\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\code\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\code\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\code\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\code\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\code\app\Models\ProjektaiModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\code\app\Controllers\Projektai.php(13): App\Models\ProjektaiModel->getProjektai()
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Projektai->index()
+#9 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projektai))
+#10 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-12-02 17:14:13 --> Table 'biblioteka.projektai' doesn't exist
+CRITICAL - 2021-12-02 17:14:13 --> Table 'biblioteka.projektai' doesn't exist
+#0 E:\xampp\htdocs\code\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\code\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\code\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\code\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\code\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\code\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\code\app\Models\ProjektaiModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\code\app\Controllers\Projektai.php(13): App\Models\ProjektaiModel->getProjektai()
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Projektai->index()
+#9 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projektai))
+#10 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-12-02 17:15:08 --> Table 'biblioteka.projektai' doesn't exist
+CRITICAL - 2021-12-02 17:15:08 --> Table 'biblioteka.projektai' doesn't exist
+#0 E:\xampp\htdocs\code\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\code\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\code\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\code\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\code\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\code\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\code\app\Models\ProjektaiModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\code\app\Controllers\Projektai.php(13): App\Models\ProjektaiModel->getProjektai()
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Projektai->index()
+#9 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projektai))
+#10 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-12-02 17:17:53 --> Table 'biblioteka.projektai' doesn't exist
+CRITICAL - 2021-12-02 17:17:53 --> Table 'biblioteka.projektai' doesn't exist
+#0 E:\xampp\htdocs\code\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\code\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\code\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\code\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\code\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\code\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\code\app\Models\ProjektaiModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\code\app\Controllers\Projektai.php(13): App\Models\ProjektaiModel->getProjektai()
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Projektai->index()
+#9 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projektai))
+#10 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}

@@ -1,0 +1,15 @@
+ERROR - 2021-11-20 12:37:17 --> Table 'biblioteka.narys' doesn't exist
+CRITICAL - 2021-11-20 12:37:17 --> Table 'biblioteka.narys' doesn't exist
+#0 E:\xampp\htdocs\code\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\code\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\code\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\code\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\code\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\code\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\code\app\Models\NarysModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\code\app\Controllers\Narys.php(13): App\Models\NarysModel->getNarys()
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Narys->index()
+#9 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Narys))
+#10 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}

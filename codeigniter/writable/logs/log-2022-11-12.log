@@ -1,0 +1,364 @@
+CRITICAL - 2022-11-12 14:40:27 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', 'E:\\xampp\\htdocs...', 252)
+#1 E:\xampp\htdocs\code\system\Validation\Rules.php(252): trim(NULL)
+#2 E:\xampp\htdocs\code\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->required(NULL, NULL)
+#3 E:\xampp\htdocs\code\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('vardas', 'vardas', NULL, Array, Array)
+#4 E:\xampp\htdocs\code\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#5 E:\xampp\htdocs\code\app\Controllers\Nariai.php(30): CodeIgniter\Controller->validate(Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Nariai->naujas()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nariai))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-12 14:40:27 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in E:\xampp\htdocs\code\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'E:\\xampp\\htdocs...', 253)
+#1 E:\xampp\htdocs\code\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 E:\xampp\htdocs\code\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 E:\xampp\htdocs\code\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 E:\xampp\htdocs\code\system\Debug\Exceptions.php(229): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\code\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 E:\xampp\htdocs\code\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-12 14:40:46 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', 'E:\\xampp\\htdocs...', 252)
+#1 E:\xampp\htdocs\code\system\Validation\Rules.php(252): trim(NULL)
+#2 E:\xampp\htdocs\code\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->required(NULL, NULL)
+#3 E:\xampp\htdocs\code\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('vardas', 'vardas', NULL, Array, Array)
+#4 E:\xampp\htdocs\code\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#5 E:\xampp\htdocs\code\app\Controllers\Nariai.php(60): CodeIgniter\Controller->validate(Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Nariai->redaguoti('11')
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nariai))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-12 14:40:46 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in E:\xampp\htdocs\code\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'E:\\xampp\\htdocs...', 253)
+#1 E:\xampp\htdocs\code\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 E:\xampp\htdocs\code\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 E:\xampp\htdocs\code\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 E:\xampp\htdocs\code\system\Debug\Exceptions.php(229): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\code\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 E:\xampp\htdocs\code\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-12 14:40:51 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', 'E:\\xampp\\htdocs...', 252)
+#1 E:\xampp\htdocs\code\system\Validation\Rules.php(252): trim(NULL)
+#2 E:\xampp\htdocs\code\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->required(NULL, NULL)
+#3 E:\xampp\htdocs\code\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('vardas', 'vardas', NULL, Array, Array)
+#4 E:\xampp\htdocs\code\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#5 E:\xampp\htdocs\code\app\Controllers\Nariai.php(60): CodeIgniter\Controller->validate(Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Nariai->redaguoti('11')
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nariai))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-12 14:40:51 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in E:\xampp\htdocs\code\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'E:\\xampp\\htdocs...', 253)
+#1 E:\xampp\htdocs\code\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 E:\xampp\htdocs\code\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 E:\xampp\htdocs\code\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 E:\xampp\htdocs\code\system\Debug\Exceptions.php(229): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\code\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 E:\xampp\htdocs\code\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-12 14:45:04 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', 'E:\\xampp\\htdocs...', 252)
+#1 E:\xampp\htdocs\code\system\Validation\Rules.php(252): trim(NULL)
+#2 E:\xampp\htdocs\code\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->required(NULL, NULL)
+#3 E:\xampp\htdocs\code\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('vardas', 'vardas', NULL, Array, Array)
+#4 E:\xampp\htdocs\code\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#5 E:\xampp\htdocs\code\app\Controllers\Nariai.php(30): CodeIgniter\Controller->validate(Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Nariai->naujas()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nariai))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-12 14:45:04 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in E:\xampp\htdocs\code\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'E:\\xampp\\htdocs...', 253)
+#1 E:\xampp\htdocs\code\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 E:\xampp\htdocs\code\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 E:\xampp\htdocs\code\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 E:\xampp\htdocs\code\system\Debug\Exceptions.php(229): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\code\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 E:\xampp\htdocs\code\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-12 14:45:10 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', 'E:\\xampp\\htdocs...', 252)
+#1 E:\xampp\htdocs\code\system\Validation\Rules.php(252): trim(NULL)
+#2 E:\xampp\htdocs\code\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->required(NULL, NULL)
+#3 E:\xampp\htdocs\code\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('vardas', 'vardas', NULL, Array, Array)
+#4 E:\xampp\htdocs\code\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#5 E:\xampp\htdocs\code\app\Controllers\Autoriai.php(27): CodeIgniter\Controller->validate(Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Autoriai->naujas()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autoriai))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-12 14:45:10 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in E:\xampp\htdocs\code\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'E:\\xampp\\htdocs...', 253)
+#1 E:\xampp\htdocs\code\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 E:\xampp\htdocs\code\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 E:\xampp\htdocs\code\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 E:\xampp\htdocs\code\system\Debug\Exceptions.php(229): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\code\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 E:\xampp\htdocs\code\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-12 14:46:14 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', 'E:\\xampp\\htdocs...', 252)
+#1 E:\xampp\htdocs\code\system\Validation\Rules.php(252): trim(NULL)
+#2 E:\xampp\htdocs\code\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->required(NULL, NULL)
+#3 E:\xampp\htdocs\code\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('vardas', 'vardas', NULL, Array, Array)
+#4 E:\xampp\htdocs\code\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#5 E:\xampp\htdocs\code\app\Controllers\Nariai.php(30): CodeIgniter\Controller->validate(Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Nariai->naujas()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nariai))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-12 14:46:14 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in E:\xampp\htdocs\code\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'E:\\xampp\\htdocs...', 253)
+#1 E:\xampp\htdocs\code\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 E:\xampp\htdocs\code\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 E:\xampp\htdocs\code\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 E:\xampp\htdocs\code\system\Debug\Exceptions.php(229): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\code\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 E:\xampp\htdocs\code\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-12 14:48:30 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', 'E:\\xampp\\htdocs...', 252)
+#1 E:\xampp\htdocs\code\system\Validation\Rules.php(252): trim(NULL)
+#2 E:\xampp\htdocs\code\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->required(NULL, NULL)
+#3 E:\xampp\htdocs\code\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('vardas', 'vardas', NULL, Array, Array)
+#4 E:\xampp\htdocs\code\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#5 E:\xampp\htdocs\code\app\Controllers\Nariai.php(30): CodeIgniter\Controller->validate(Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Nariai->naujas()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nariai))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-12 14:48:30 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in E:\xampp\htdocs\code\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'E:\\xampp\\htdocs...', 253)
+#1 E:\xampp\htdocs\code\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 E:\xampp\htdocs\code\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 E:\xampp\htdocs\code\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 E:\xampp\htdocs\code\system\Debug\Exceptions.php(229): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\code\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 E:\xampp\htdocs\code\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-12 14:48:33 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', 'E:\\xampp\\htdocs...', 252)
+#1 E:\xampp\htdocs\code\system\Validation\Rules.php(252): trim(NULL)
+#2 E:\xampp\htdocs\code\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->required(NULL, NULL)
+#3 E:\xampp\htdocs\code\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('vardas', 'vardas', NULL, Array, Array)
+#4 E:\xampp\htdocs\code\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#5 E:\xampp\htdocs\code\app\Controllers\Autoriai.php(27): CodeIgniter\Controller->validate(Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Autoriai->naujas()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autoriai))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-12 14:48:33 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in E:\xampp\htdocs\code\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'E:\\xampp\\htdocs...', 253)
+#1 E:\xampp\htdocs\code\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 E:\xampp\htdocs\code\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 E:\xampp\htdocs\code\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 E:\xampp\htdocs\code\system\Debug\Exceptions.php(229): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\code\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 E:\xampp\htdocs\code\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-12 14:48:42 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', 'E:\\xampp\\htdocs...', 252)
+#1 E:\xampp\htdocs\code\system\Validation\Rules.php(252): trim(NULL)
+#2 E:\xampp\htdocs\code\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->required(NULL, NULL)
+#3 E:\xampp\htdocs\code\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('pavadinimas', 'pavadinimas', NULL, Array, Array)
+#4 E:\xampp\htdocs\code\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#5 E:\xampp\htdocs\code\app\Controllers\Knygos.php(31): CodeIgniter\Controller->validate(Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->redaguoti('1')
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-12 14:48:42 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in E:\xampp\htdocs\code\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'E:\\xampp\\htdocs...', 253)
+#1 E:\xampp\htdocs\code\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 E:\xampp\htdocs\code\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 E:\xampp\htdocs\code\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 E:\xampp\htdocs\code\system\Debug\Exceptions.php(229): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\code\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 E:\xampp\htdocs\code\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-12 14:48:55 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', 'E:\\xampp\\htdocs...', 252)
+#1 E:\xampp\htdocs\code\system\Validation\Rules.php(252): trim(NULL)
+#2 E:\xampp\htdocs\code\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->required(NULL, NULL)
+#3 E:\xampp\htdocs\code\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('pavadinimas', 'pavadinimas', NULL, Array, Array)
+#4 E:\xampp\htdocs\code\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#5 E:\xampp\htdocs\code\app\Controllers\Knygos.php(31): CodeIgniter\Controller->validate(Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->redaguoti('32')
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-12 14:48:55 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in E:\xampp\htdocs\code\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'E:\\xampp\\htdocs...', 253)
+#1 E:\xampp\htdocs\code\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 E:\xampp\htdocs\code\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 E:\xampp\htdocs\code\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 E:\xampp\htdocs\code\system\Debug\Exceptions.php(229): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\code\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 E:\xampp\htdocs\code\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-12 14:50:27 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', 'E:\\xampp\\htdocs...', 252)
+#1 E:\xampp\htdocs\code\system\Validation\Rules.php(252): trim(NULL)
+#2 E:\xampp\htdocs\code\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->required(NULL, NULL)
+#3 E:\xampp\htdocs\code\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('vardas', 'vardas', NULL, Array, Array)
+#4 E:\xampp\htdocs\code\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#5 E:\xampp\htdocs\code\app\Controllers\Nariai.php(30): CodeIgniter\Controller->validate(Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Nariai->naujas()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nariai))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-12 14:50:27 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in E:\xampp\htdocs\code\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'E:\\xampp\\htdocs...', 253)
+#1 E:\xampp\htdocs\code\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 E:\xampp\htdocs\code\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 E:\xampp\htdocs\code\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 E:\xampp\htdocs\code\system\Debug\Exceptions.php(229): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\code\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 E:\xampp\htdocs\code\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-12 14:50:32 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', 'E:\\xampp\\htdocs...', 252)
+#1 E:\xampp\htdocs\code\system\Validation\Rules.php(252): trim(NULL)
+#2 E:\xampp\htdocs\code\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->required(NULL, NULL)
+#3 E:\xampp\htdocs\code\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('vardas', 'vardas', NULL, Array, Array)
+#4 E:\xampp\htdocs\code\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#5 E:\xampp\htdocs\code\app\Controllers\Nariai.php(60): CodeIgniter\Controller->validate(Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Nariai->redaguoti('1')
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nariai))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-12 14:50:32 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in E:\xampp\htdocs\code\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'E:\\xampp\\htdocs...', 253)
+#1 E:\xampp\htdocs\code\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 E:\xampp\htdocs\code\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 E:\xampp\htdocs\code\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 E:\xampp\htdocs\code\system\Debug\Exceptions.php(229): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\code\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 E:\xampp\htdocs\code\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-12 14:54:13 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', 'E:\\xampp\\htdocs...', 252)
+#1 E:\xampp\htdocs\code\system\Validation\Rules.php(252): trim(NULL)
+#2 E:\xampp\htdocs\code\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->required(NULL, NULL)
+#3 E:\xampp\htdocs\code\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('vardas', 'vardas', NULL, Array, Array)
+#4 E:\xampp\htdocs\code\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#5 E:\xampp\htdocs\code\app\Controllers\Autoriai.php(27): CodeIgniter\Controller->validate(Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Autoriai->naujas()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autoriai))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-12 14:54:13 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in E:\xampp\htdocs\code\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'E:\\xampp\\htdocs...', 253)
+#1 E:\xampp\htdocs\code\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 E:\xampp\htdocs\code\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 E:\xampp\htdocs\code\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 E:\xampp\htdocs\code\system\Debug\Exceptions.php(229): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\code\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 E:\xampp\htdocs\code\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-12 14:54:15 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing...', 'E:\\xampp\\htdocs...', 252)
+#1 E:\xampp\htdocs\code\system\Validation\Rules.php(252): trim(NULL)
+#2 E:\xampp\htdocs\code\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->required(NULL, NULL)
+#3 E:\xampp\htdocs\code\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('vardas', 'vardas', NULL, Array, Array)
+#4 E:\xampp\htdocs\code\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#5 E:\xampp\htdocs\code\app\Controllers\Nariai.php(30): CodeIgniter\Controller->validate(Array)
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Nariai->naujas()
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nariai))
+#8 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-12 14:54:15 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in E:\xampp\htdocs\code\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'E:\\xampp\\htdocs...', 253)
+#1 E:\xampp\htdocs\code\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 E:\xampp\htdocs\code\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 E:\xampp\htdocs\code\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 E:\xampp\htdocs\code\system\Debug\Exceptions.php(229): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\code\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 E:\xampp\htdocs\code\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

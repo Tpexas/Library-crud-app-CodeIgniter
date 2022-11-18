@@ -1,0 +1,7 @@
+CRITICAL - 2021-12-05 00:25:08 --> Undefined variable $retdate
+#0 E:\xampp\htdocs\code\app\Controllers\Nariai.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 98)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Nariai->prideti_uzsakyma('1', '1', 'vidutinis')
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nariai))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

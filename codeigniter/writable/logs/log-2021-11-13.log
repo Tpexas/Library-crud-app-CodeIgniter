@@ -1,0 +1,105 @@
+CRITICAL - 2021-11-13 13:47:48 --> Call to undefined method App\Models\ProjektaiModel::getKnygos
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(13): CodeIgniter\Model->__call('getKnygos', Array)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->index()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-13 13:48:42 --> Call to undefined method App\Models\ProjektaiModel::getKnygos
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(13): CodeIgniter\Model->__call('getKnygos', Array)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->index()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-13 13:48:54 --> Call to undefined method App\Models\ProjektaiModel::getKnygos
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(13): CodeIgniter\Model->__call('getKnygos', Array)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->index()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-13 13:48:55 --> Call to undefined method App\Models\ProjektaiModel::getKnygos
+#0 E:\xampp\htdocs\code\app\Controllers\Knygos.php(13): CodeIgniter\Model->__call('getKnygos', Array)
+#1 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->index()
+#2 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#3 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-13 13:53:56 --> Undefined variable $test
+#0 E:\xampp\htdocs\code\app\Views\knygos.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 3)
+#1 E:\xampp\htdocs\code\system\View\View.php(214): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('knygos', Array, true)
+#4 E:\xampp\htdocs\code\app\Controllers\Knygos.php(16): view('knygos', Array)
+#5 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->index()
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-13 13:55:11 --> Undefined variable $projektai
+#0 E:\xampp\htdocs\code\app\Views\knygos.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 17)
+#1 E:\xampp\htdocs\code\system\View\View.php(214): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('knygos', Array, true)
+#4 E:\xampp\htdocs\code\app\Controllers\Knygos.php(16): view('knygos', Array)
+#5 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->index()
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-13 13:55:54 --> Undefined variable $knyga
+#0 E:\xampp\htdocs\code\app\Views\knygos.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 17)
+#1 E:\xampp\htdocs\code\system\View\View.php(214): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('knygos', Array, true)
+#4 E:\xampp\htdocs\code\app\Controllers\Knygos.php(16): view('knygos', Array)
+#5 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->index()
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-13 13:56:11 --> Undefined variable $test
+#0 E:\xampp\htdocs\code\app\Views\knygos.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 3)
+#1 E:\xampp\htdocs\code\system\View\View.php(214): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('knygos', Array, true)
+#4 E:\xampp\htdocs\code\app\Controllers\Knygos.php(16): view('knygos', Array)
+#5 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->index()
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-13 13:57:23 --> Undefined variable $test
+#0 E:\xampp\htdocs\code\app\Views\knygos.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 3)
+#1 E:\xampp\htdocs\code\system\View\View.php(214): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('knygos', Array, true)
+#4 E:\xampp\htdocs\code\app\Controllers\Knygos.php(16): view('knygos', Array)
+#5 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->index()
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-13 13:57:25 --> Undefined variable $test
+#0 E:\xampp\htdocs\code\app\Views\knygos.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 3)
+#1 E:\xampp\htdocs\code\system\View\View.php(214): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('knygos', Array, true)
+#4 E:\xampp\htdocs\code\app\Controllers\Knygos.php(16): view('knygos', Array)
+#5 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Knygos->index()
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Knygos))
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-13 14:12:18 --> Undefined variable $nariai
+#0 E:\xampp\htdocs\code\app\Views\autoriai.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 13)
+#1 E:\xampp\htdocs\code\system\View\View.php(214): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\code\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\code\system\Common.php(1097): CodeIgniter\View\View->render('autoriai', Array, true)
+#4 E:\xampp\htdocs\code\app\Controllers\Autoriai.php(16): view('autoriai', Array)
+#5 E:\xampp\htdocs\code\system\CodeIgniter.php(824): App\Controllers\Autoriai->index()
+#6 E:\xampp\htdocs\code\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autoriai))
+#7 E:\xampp\htdocs\code\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
